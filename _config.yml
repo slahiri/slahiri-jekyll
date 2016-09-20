@@ -1,14 +1,15 @@
 # main text of home
 name: Siddhartha Lahiri
-bio: jack of all trades (and master of none)
+bio: jack of all trades
+title: Siddhartha Lahiri
 
 # twitter summary info
-description: A blog on technology and stuff ....
+description: Siddhartha Lahiri's personal web
 
 # if it's an external image, update below for true
 # better with square images
-external-image: true
-picture: assets/images/sid_profile.jpg
+external-image: false
+picture: /assets/images/sid_profile.jpg
 
 url: http://sid.ai
 # your url: http://USERNAME.github.io
@@ -19,7 +20,7 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-84492464-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -35,7 +36,7 @@ twitter: sid_2vicious
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: lahiris
-# youtube: myyoutube
+# youtube: lahiris
 # spotify: myspotify
 github: siddhartha-lahiri
 # medium: medium
@@ -43,18 +44,12 @@ github: siddhartha-lahiri
 # email: myemail@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+    sid_2vicious:
+        name: Siddhartha Lahiri
+        bio: jack of all trades (and master of none)
+        external-image: true
+        picture: assets/images/sid_profile.jpg
+        twitter: sid_2vicious
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -89,6 +84,8 @@ show-author: true
 
 # do you want some animations?
 animation: false
+
+sitemap: true
 
 sass:
     sass_dir: _sass
