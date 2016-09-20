@@ -3,6 +3,9 @@ cache: bundler
 rvm:
 - 2.2
 
+notifications:
+  slack: sid-ai:YXPzg7RWB0PEW6ZUCUV6ZSX8
+  
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script:
