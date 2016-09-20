@@ -87,6 +87,8 @@ animation: false
 
 sitemap: true
 
+exclude: [vendor]
+
 sass:
     sass_dir: _sass
     style: :compressed

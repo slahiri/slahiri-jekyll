@@ -1,6 +1,8 @@
 <div class="social-links">
     {% if site.facebook %}
-        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
+        <a data-proofer-ignore class="link" data-title="facebook.com/{{ site.facebook }}"
+           href="https://facebook.com/{{ site.facebook }}"
+           target="_blank">
             <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
         </a>
     {% endif %}
@@ -30,7 +32,8 @@
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+        <a data-proofer-ignore class="link" data-title="linkedin.com/in/{{ site.linkedin }}"
+           href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank">
             <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
