@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://koppl.in/indigo/markdown-extra-components/</loc>
-<lastmod>2016-02-24T22:48:00+05:30</lastmod>
+<loc>http://sid.ai/about/</loc>
 </url>
 <url>
-<loc>http://koppl.in/indigo/markdown-common-elements/</loc>
-<lastmod>2016-02-24T22:44:00+05:30</lastmod>
+<loc>http://sid.ai/blog/</loc>
 </url>
 <url>
-<loc>http://koppl.in/indigo/indigo-jekyll-theme/</loc>
-<lastmod>2016-01-23T22:10:00+05:30</lastmod>
+<loc>http://sid.ai/</loc>
 </url>
 <url>
-<loc>http://koppl.in/indigo/about/</loc>
+<loc>http://sid.ai/projects/</loc>
 </url>
 <url>
-<loc>http://koppl.in/indigo/blog/</loc>
-</url>
-<url>
-<loc>http://koppl.in/indigo/</loc>
-</url>
-<url>
-<loc>http://koppl.in/indigo/projects/</loc>
-</url>
-<url>
-<loc>http://koppl.in/indigo/tags/</loc>
+<loc>http://sid.ai/tags/</loc>
 </url>
 </urlset>

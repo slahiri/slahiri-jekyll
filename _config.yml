@@ -1,16 +1,16 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Siddhartha Lahiri
+bio: jack of all trades (and master of none)
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog on technology and stuff ....
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: assets/images/profile.jpg
+external-image: true
+picture: assets/images/sid_profile.jpg
 
-url: http://koppl.in/indigo
+url: http://sid.ai
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -29,18 +29,18 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: siddhartha.lahiri
+twitter: sid_2vicious
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+linkedin: lahiris
+# youtube: myyoutube
+# spotify: myspotify
+github: siddhartha-lahiri
+# medium: medium
+# vimeo: myvimeo
+# email: myemail@gmail.com
 
 authors:
     johndoe:
@@ -66,11 +66,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -88,7 +88,7 @@ blog-nav-links: false
 show-author: true
 
 # do you want some animations?
-animation: true
+animation: false
 
 sass:
     sass_dir: _sass

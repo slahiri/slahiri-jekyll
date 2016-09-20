@@ -1,14 +1,14 @@
 {
-  "name": "indigo",
+  "name": "slahiri-jekyll",
   "version": "1.0.0",
-  "homepage": "https://github.com/sergiokopplin/indigo#readme",
+  "homepage": "https://github.com/slahiri/slahiri-jekyll#readme",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/sergiokopplin/indigo/issues"
+      "url": "https://github.com/slahiri/slahiri-jekyll/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergiokopplin/indigo.git"
+    "url": "git+https://github.com/slahiri/slahiri-jekyll.git"
   },
   "scripts": {
     "build": "bundle exec jekyll build",
