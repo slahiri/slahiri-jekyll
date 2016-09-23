@@ -1,6 +1,6 @@
 {
   "name": "slahiri-jekyll",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "homepage": "https://github.com/slahiri/slahiri-jekyll#readme",
   "license": "MIT",
   "bugs": {
@@ -17,6 +17,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "generate-changelog": "^1.0.2",
     "grunt": "^1.0.1",
     "grunt-bower-task": "^0.4.0",
     "grunt-contrib-connect": "^1.0.2",

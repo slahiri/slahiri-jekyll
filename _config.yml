@@ -97,6 +97,8 @@ exclude:
   - "travis.sh"
   - "Gemfile"
   - "Gemfile.lock"
+  - "atlassian-ide-plugin.xml"
+  - "CHANGELOG.md"
 
 sass:
     sass_dir: _sass
