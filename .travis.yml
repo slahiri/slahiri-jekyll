@@ -9,6 +9,7 @@ before_install:
   - pip install --user pillow
 
 install:
+  - bundle install
   - bower install
   - gem install jekyll html-proofer
 
