@@ -1,0 +1,21 @@
+{
+  "name": "slahiri-jekyll",
+  "description": "Siddhartha Lahiri's home page",
+  "main": "",
+  "authors": [
+    "siddhartha.lahiri@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/slahiri/slahiri-jekyll",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.terminal": "^0.11.9"
+  }
+}

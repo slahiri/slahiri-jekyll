@@ -11,6 +11,9 @@
 /tmp/
 /.sass-cache/
 npm-debug.log
+/bower_components/
+/node_modules/
+.idea
 
 # Used by dotenv library to load environment variables.
 # .env

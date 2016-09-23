@@ -87,7 +87,16 @@ animation: false
 
 sitemap: true
 
-exclude: [vendor]
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
+  - "Gruntfile.coffee"
+  - "Rakefile"
+  - "travis.sh"
+  - "Gemfile"
+  - "Gemfile.lock"
 
 sass:
     sass_dir: _sass

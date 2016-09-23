@@ -4,7 +4,7 @@
   "homepage": "https://github.com/slahiri/slahiri-jekyll#readme",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/slahiri/slahiri-jekyll/issues"
+    "url": "https://github.com/slahiri/slahiri-jekyll/issues"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,14 @@
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
     "test": "bundle exec htmlproofer ./_site"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^1.0.1"
   }
 }
