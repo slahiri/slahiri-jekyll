@@ -1,6 +1,6 @@
 # main text of home
 name: Siddhartha Lahiri
-bio: jack of all trades
+bio: jack of all trades, master of all
 title: Siddhartha Lahiri
 
 # twitter summary info
@@ -36,7 +36,7 @@ twitter: sid_2vicious
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: lahiris
-# youtube: lahiris
+youtube: lahiris
 # spotify: myspotify
 github: siddhartha-lahiri
 # medium: medium
@@ -87,7 +87,18 @@ animation: false
 
 sitemap: true
 
-exclude: [vendor]
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
+  - "Gruntfile.coffee"
+  - "Rakefile"
+  - "travis.sh"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "atlassian-ide-plugin.xml"
+  - "CHANGELOG.md"
 
 sass:
     sass_dir: _sass

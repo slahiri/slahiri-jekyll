@@ -1,12 +1,29 @@
 language: ruby
-cache: bundler
 rvm:
-- 2.2
+  - 2.2
+
+before_install:
+  - npm install
+  - npm install -g bower
+  - npm install -g grunt-cli
+  - npm install -g generate-changelog
+  - pip install --user pillow
+
+install:
+  - bundle install
+  - bower install
+  - gem install jekyll html-proofer
+
+notifications:
+  slack: sid-ai:YXPzg7RWB0PEW6ZUCUV6ZSX8
+
+before_script:
+
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script:
-  - bundle exec jekyll build
+  - grunt build
   - bundle exec htmlproofer ./_site --only-4xx
 
 # branch whitelist, only for GitHub Pages

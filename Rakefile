@@ -1,9 +1,22 @@
-require 'html/proofer'
+require 'rubygems'
 
-# rake test
-desc "build and test website"
+# rake deploy
+task :deploy do
+  puts "## Deploying to Github Pages"
 
-task :test do
-  sh "bundle exec jekyll build"
-  HTML::Proofer.new("_site", {:href_ignore=> ['http://localhost:4000'], :verbose => true}).run
+  puts "## Generating site"
+  system "grunt build"
+
+  cd "_site" do
+    system "git add -A"
+
+    message = "Site updated at #{Time.now.utc}"
+    puts "## Commiting: #{message}"
+    system "git commit -m \"#{message}\""
+
+    puts "## Pushing generated site"
+    system "git push"
+
+    puts "## Deploy Complete!"
+  end
 end
