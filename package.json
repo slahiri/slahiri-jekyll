@@ -11,8 +11,8 @@
     "url": "git+https://github.com/slahiri/slahiri-jekyll.git"
   },
   "scripts": {
-    "build": "bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll -v build",
+    "serve": "bundle exec jekyll -v serve",
     "test": "bundle exec htmlproofer ./_site"
   },
   "dependencies": {},
