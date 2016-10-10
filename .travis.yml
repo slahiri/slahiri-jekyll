@@ -8,6 +8,7 @@ before_install:
   - npm install -g grunt-cli
   - npm install -g generate-changelog
   - pip install --user pillow
+  - gem install bundler
 
 install:
   - bundle install
