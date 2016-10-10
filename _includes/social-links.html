@@ -73,4 +73,12 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
+    {% if site.youpic %}
+    <a data-proofer-ignore class="link" data-title="youpic.com/photographer/{{ site.youpic }}"
+       href="https://youpic.com/photographer/{{ site.youpic }}" target="_blank">
+        <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
+    </a>
+    {% endif %}
+
 </div>
