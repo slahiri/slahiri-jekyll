@@ -56,6 +56,13 @@
         </a>
     {% endif %}
 
+    {% if site.github_user %}
+    <a class="link" data-title="github.com/{{ site.github_user }}" href="https://github.com/{{ site.github_user }}"
+       target="_blank">
+        <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+    </a>
+    {% endif %}
+
     {% if site.medium %}
         <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
             <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
@@ -73,4 +80,12 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
+    {% if site.youpic %}
+    <a data-proofer-ignore class="link" data-title="youpic.com/photographer/{{ site.youpic }}"
+       href="https://youpic.com/photographer/{{ site.youpic }}" target="_blank">
+        <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
+    </a>
+    {% endif %}
+
 </div>

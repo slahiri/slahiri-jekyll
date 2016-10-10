@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.2
+  - 2.3
 
 before_install:
   - npm install
@@ -8,6 +8,7 @@ before_install:
   - npm install -g grunt-cli
   - npm install -g generate-changelog
   - pip install --user pillow
+  - gem install bundler
 
 install:
   - bundle install
@@ -23,7 +24,8 @@ before_script:
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script:
-  - grunt build
+  - grunt copy
+  - bundle exec jekyll -v
   - bundle exec htmlproofer ./_site --only-4xx
 
 # branch whitelist, only for GitHub Pages
