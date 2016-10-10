@@ -40,7 +40,7 @@ module.exports = (grunt) ->
 
     exec:
       jekyll:
-        cmd: "jekyll build --trace"
+        cmd: "bundle exec jekyll -v"
 
     watch:
       options:
