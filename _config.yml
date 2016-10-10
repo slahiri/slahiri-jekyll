@@ -1,10 +1,10 @@
 # main text of home
 name: Siddhartha Lahiri
-bio: jack of all trades, master of all
+bio: for engineers, by engineers
 title: Siddhartha Lahiri
 
 # twitter summary info
-description: Siddhartha Lahiri's personal web
+description: Sid's personal web
 
 # if it's an external image, update below for true
 # better with square images
@@ -38,15 +38,16 @@ twitter: sid_2vicious
 linkedin: lahiris
 youtube: lahiris
 # spotify: myspotify
-github: siddhartha-lahiri
+github: slahiri
 # medium: medium
 # vimeo: myvimeo
 # email: myemail@gmail.com
+youpic: lahiri
 
 authors:
     sid_2vicious:
         name: Siddhartha Lahiri
-        bio: jack of all trades (and master of none)
+        bio: for engineers, by engineers
         external-image: true
         picture: assets/images/sid_profile.jpg
         twitter: sid_2vicious
